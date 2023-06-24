@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LRADSAB01.Views.PageResultado">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Label Text="{Binding Nombres}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                 x:Name="lbnombre"/>
+
+            <Label Text="{Binding Apellidos}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                 x:Name="lbapellidos"/>
+
+            <Label Text="{Binding FechaNac}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                 x:Name="lbfecha"/>
+
+            <Label Text="{Binding telefono}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                 x:Name="lbtelefono"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
