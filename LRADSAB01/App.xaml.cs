@@ -38,7 +38,7 @@ namespace LRADSAB01
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Views.PagePersonas());
+            MainPage = new NavigationPage(new Views.PageListPersonas());
         }
 
         protected override void OnStart()
