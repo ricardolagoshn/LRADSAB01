@@ -37,5 +37,11 @@ namespace LRADSAB01.Views
             var page = new Views.PagePersonas();
             Navigation.PushAsync(page);
         }
+
+        private void ToolbarItem_Clicked_1(object sender, EventArgs e)
+        {
+            var page = new Views.PageMap();
+            Navigation.PushAsync(page);
+        }
     }
 }

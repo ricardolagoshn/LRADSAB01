@@ -4,6 +4,8 @@ using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
+using Plugin.CurrentActivity;
+using ImageCircle.Forms.Plugin.Droid;
 
 namespace LRADSAB01.Droid
 {
@@ -14,6 +16,8 @@ namespace LRADSAB01.Droid
         {
             base.OnCreate(savedInstanceState);
 
+            ImageCircleRenderer.Init();
+            CrossCurrentActivity.Current.Init(this, savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
