@@ -12,6 +12,8 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Agregar Persona" Clicked="ToolbarItem_Clicked"></ToolbarItem>
 
+        <ToolbarItem Text="Agregar Alumno" Clicked="ToolbarItem_Clicked_2"></ToolbarItem>
+
         <ToolbarItem Text="Ver mapa" Clicked="ToolbarItem_Clicked_1"></ToolbarItem>
     </ContentPage.ToolbarItems>
 
